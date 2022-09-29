@@ -59,7 +59,7 @@ public class Operaciones {
         return multi;
     }
     
-    public double division(int num[]){
+    public void division(int num[]){
         double[] numDouble = new double [num.length];
         for(int i=0; i<numDouble.length; i++){
             numDouble[i] = num[i];
@@ -76,7 +76,5 @@ public class Operaciones {
                 break;
             }
         }
-        
-        return div;
     }
 }
